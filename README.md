@@ -21,13 +21,14 @@
 <a name="introduction"></a>
 ## 简介
 
-该组件衍生自 [illuminate/mail](https://github.com/illuminate/mail )，基于 [SwiftMailer](https://swiftmailer.symfony.com/) 函数库提供了一套干净、简洁的 API ，可以为 SMTP、Mailgun、Postmark、AWS SES、阿里云 DM 和 `sendmail` 提供驱动，让你可以快速从本地或云端服务自由地发送邮件。
+该组件衍生自 [illuminate/mail](https://github.com/illuminate/mail )，基于 [SwiftMailer](https://swiftmailer.symfony.com/) 函数库提供了一套干净、简洁的 API ，可以为 SMTP、Mailgun、Postmark、AWS SES、阿里云 DM 和 `sendmail` 提供驱动，让你可以快速从本地或云端服务自由地发送邮件，基于3.0
 
 <a name="installation"></a>
+
 ### 安装
 
 ```shell script
-composer require hyperf-ext/mail
+composer require itjackjw/hyperf-mail
 ```
 
 #### 发布配置

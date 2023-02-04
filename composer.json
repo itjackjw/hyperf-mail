@@ -5,9 +5,10 @@
     "keywords": [
         "php",
         "hyperf",
+        "Hyperf 3.0",
         "mail"
     ],
-    "description": "The Hyperf Mail package.",
+    "description": "The Hyperf 3.0 Mail package.",
     "authors": [
         {
             "name": "Eric Zhu",
