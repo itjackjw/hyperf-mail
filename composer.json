@@ -37,7 +37,7 @@
         "php": ">=8.0",
         "ext-json": "*",
         "ext-swoole": ">=4.5",
-        "hyperf-ext/contract": "^2.2.0",
+        "hyperf-ext/contract": "~2.2.0",
         "hyperf/async-queue": "^3.0",
         "hyperf/command": "^3.0",
         "hyperf/config": "^3.0",
