@@ -37,7 +37,7 @@
         "php": ">=8.0",
         "ext-json": "*",
         "ext-swoole": ">=4.5",
-        "itjackjw/hyperf-contract": "dev-master",
+        "itjackjw/hyperf-contract": "dev-main",
         "hyperf/async-queue": "^3.0",
         "hyperf/command": "^3.0",
         "hyperf/config": "^3.0",
