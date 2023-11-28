@@ -11,7 +11,7 @@ declare(strict_types=1);
 namespace HyperfExt\Mail;
 
 use Hyperf\AsyncQueue\Job;
-use Hyperf\Utils\ApplicationContext;
+use Hyperf\Context\ApplicationContext;
 use HyperfExt\Mail\Contracts\MailableInterface;
 use HyperfExt\Mail\Contracts\MailManagerInterface;
 

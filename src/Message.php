@@ -10,7 +10,8 @@ declare(strict_types=1);
  */
 namespace HyperfExt\Mail;
 
-use Hyperf\Utils\Traits\ForwardsCalls;
+
+use Hyperf\Support\Traits\ForwardsCalls;
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email;
 use Symfony\Component\Mime\Part\DataPart;

@@ -10,7 +10,7 @@ declare(strict_types=1);
  */
 namespace HyperfExt\Mail\Concerns;
 
-use Hyperf\Utils\Collection;
+use Hyperf\Collection\Collection;
 use HyperfExt\Contract\HasMailAddress;
 use HyperfExt\Mail\PendingMail;
 

@@ -10,10 +10,11 @@ declare(strict_types=1);
  */
 namespace HyperfExt\Mail;
 
+use Hyperf\Collection\Arr;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Logger\LoggerFactory;
-use Hyperf\Utils\Arr;
-use Hyperf\Utils\Str;
+
+use Hyperf\Stringable\Str;
 use HyperfExt\Contract\ShouldQueue;
 use HyperfExt\Mail\Concerns\PendingMailable;
 use HyperfExt\Mail\Contracts\MailableInterface;
@@ -61,6 +62,7 @@ class MailManager implements MailManagerInterface
     {
         return $this->mailer()->{$method}(...$arguments);
     }
+
 
     /**
      * Get a mailer instance by name.
